@@ -1,0 +1,61 @@
+.main {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 88px;
+  padding: 0 25px;
+  max-width: 1280px;
+
+  @media screen and (max-width: 880px) {
+    padding: 0 10px;
+  }
+  @media screen and (max-width: 441px) {
+    row-gap: 45px;
+  }
+}
+
+.listCards {
+  padding: 0;
+  display: flex;
+  justify-content: start;
+  gap: 70px;
+  list-style: none;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 1310px) {
+    justify-content: center;
+  }
+  @media screen and (max-width: 441px) {
+    gap: 30px;
+  }
+}
+
+.button {
+  width: 520px;
+  height: 80px;
+  border: 1px solid rgba(0, 0, 0, 0.34);
+  background: #3d7298;
+  box-shadow: 0px 4px 47px 0px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  font-family: "Inter";
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+
+  @media screen and (max-width: 680px) {
+    width: 82.5%;
+  }
+  @media screen and (max-width: 441px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 300px) {
+    height: 60px;
+  }
+}
+
+.button:hover {
+  background: #2b4f68;
+}
