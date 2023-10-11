@@ -6,7 +6,7 @@ export const GET_CARDS_FAILED: "GET_CARDS_FAILED" = "GET_CARDS_FAILED";
 export const SELECT_PERSON: "SELECT_PERSON" = "SELECT_PERSON";
 export const DELETE_INFO_PERSON: "DELETE_INFO_PERSON" = "DELETE_INFO_PERSON";
 
-const url = "https://layout.solvintech.ru/nuxt/api/";
+const url = "https://api.allorigins.win/raw?url=https://layout.solvintech.ru/nuxt/api/";
 
 export type TGetCardsRequest = {
   readonly type: typeof GET_CARDS_REQUEST;
